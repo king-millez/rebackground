@@ -34,7 +34,7 @@ rebackground -i 'craig.jpg' -o 'craig_rainforest.png' -p 'Broadcasting from a ra
 
 If you don't want to compile, just replace `rebackground` with `dotnet run --`
 
-**You'll need to crop your input images to have a 1:1 ration, e.g `512x512`, `1080x1080`, etc.**
+**You'll need to crop your input images to have a 1:1 ratio, e.g `512x512`, `1080x1080`, etc.**
 
 ```sh
 rebackground -i <input image> -o <output image (will be a PNG)> -p <DALL-E edit prompt>

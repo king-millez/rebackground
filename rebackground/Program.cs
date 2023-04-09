@@ -17,7 +17,7 @@ internal class Program
             name: "-p",
             description: "The DALL-E prompt for the new background."
         );
-        RootCommand rootCommand = new RootCommand("Sample app for System.CommandLine");
+        RootCommand rootCommand = new RootCommand("Replace the background of (almost) any image.");
         rootCommand.AddOption(InputFile);
         rootCommand.AddOption(OutputFile);
         rootCommand.AddOption(DallePrompt);
