@@ -19,7 +19,7 @@ namespace rebackground
 
         private static string GetEnvironmentVariable(string v)
         {
-            return Environment.GetEnvironmentVariable(v, EnvironmentVariableTarget.User)
+            return Environment.GetEnvironmentVariable(v)
                 ?? throw new ArgumentNullException($"[-] {v} environment variable is not set.");
         }
 
